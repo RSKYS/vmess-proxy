@@ -3,7 +3,8 @@
     "loglevel": "warning"
   },
   "inbounds": [
-    {
+    { 
+      "listen": "0.0.0.0",
       "port": 80,
       "protocol": "vmess",
       "allocate": {
